@@ -1,0 +1,84 @@
+<linker>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="sm.canvas.TattooCreationWizardController">
+			<method name="GoForwardToPage5"/>
+			<method name="GoForwardToPage3"/>
+			<method name="GoBackToPage4"/>
+			<method name="StartHidingTCW"/>
+			<method name="GoForwardToPage2"/>
+			<method name="GoBackToPage3"/>
+			<method name="GoForwardToPage4"/>
+			<method name="GoBackToPage1"/>
+			<method name="StartHidingTCW"/>
+			<method name="GoBackToPage2"/>
+		</type>
+		<type fullname="sm.canvas.CanvasController">
+			<method name="hideWarnings"/>
+			<method name="Action_HandleCenterScreenClicks"/>
+			<method name="clearErrorMessages"/>
+			<method name="hideWarnings"/>
+			<method name="Action_GotoURLArtistList"/>
+			<method name="hideWarnings"/>
+			<method name="clearErrorMessages"/>
+			<method name="Action_HideOrShowMenu"/>
+			<method name="Action_ShowRegistrationWindow"/>
+			<method name="Action_LoginUser"/>
+			<method name="clearErrorMessages"/>
+			<method name="showInternetWarning"/>
+			<method name="Action_RegisterUser"/>
+			<method name="clearErrorMessages"/>
+			<method name="Action_ShowLoginWindow"/>
+			<method name="clearErrorMessages"/>
+			<method name="hideWarnings"/>
+			<method name="clearErrorMessages"/>
+			<method name="Action_GotoURLMain"/>
+			<method name="clearErrorMessages"/>
+		</type>
+		<type fullname="sm.canvas.MessageCanvasController">
+			<method name="Action_Dismiss"/>
+			<method name="Action_Dismiss"/>
+			<method name="Action_GoToAppStore"/>
+		</type>
+		<type fullname="sm.canvas.PopoverCanvasController">
+			<method name="Action_UpdateAccountSettings"/>
+			<method name="PopoverBrowserShowPrivacyPage1"/>
+			<method name="Action_StartHidingPopover"/>
+			<method name="Action_StartShowingPopoverPasswordReset"/>
+			<method name="PopoverBrowserShowTermsPage3"/>
+			<method name="Action_PasswordUpdate"/>
+			<method name="PopoverBrowserShowTermsPage4"/>
+			<method name="Action_PasswordReset"/>
+			<method name="PopoverBrowserShowTermsPage2"/>
+			<method name="PopoverBrowserShowPrivacyPage2"/>
+			<method name="PopoverBrowserShowPrivacyPage3"/>
+			<method name="Action_StartShowingPopoverAccount"/>
+			<method name="PopoverBrowserShowTermsPage1"/>
+			<method name="Action_ShowPasswordUpdate"/>
+			<method name="Action_ShowAccountSettings"/>
+		</type>
+		<type fullname="sm.canvas.GuiButtonController">
+			<method name="Action_TorchToggle"/>
+			<method name="Action_CameraSelect"/>
+		</type>
+		<type fullname="sm.canvas.WebViewController">
+			<method name="Action_OpenTerms"/>
+			<method name="Action_OpenPrivacy"/>
+			<method name="Action_OpenFAQ"/>
+			<method name="Action_OpenSupport"/>
+			<method name="Action_OpenHome"/>
+		</type>
+		<type fullname="sm.canvas.TutorialCanvasController">
+			<method name="Action_StartHidingHelp"/>
+			<method name="TutorialShowPage3"/>
+			<method name="Action_StartShowingHelp"/>
+			<method name="TutorialStartHiding"/>
+			<method name="Action_StartShowingHelp"/>
+			<method name="TutorialShowPage2"/>
+			<method name="Action_StartShowingTutorial"/>
+			<method name="TutorialShowPage4"/>
+		</type>
+		<type fullname="sm.LoginEngine">
+			<method name="Action_Logout"/>
+		</type>
+	</assembly>
+</linker>
